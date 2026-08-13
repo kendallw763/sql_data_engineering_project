@@ -1,133 +1,72 @@
 # 📘 Project README
+
 ## 🚀 Executive Summary
-This project analyzes the modern data‑engineering and analytics skill landscape using structured modeling, SQL analysis, and visual interpretation.
-The objective is to identify top‑demand skills, top‑paying skills, and optimal skill bundles that maximize employability and salary outcomes. (Be sure to reference Luke Bourosse's work...)
+This project analyzes the modern data‑engineering and analytics skill landscape using structured modeling, SQL analysis, and visual interpretation.  
+The goal is to identify top‑demand skills, top‑paying skills, and optimal skill bundles that maximize employability and salary outcomes.  
+This work is inspired by and references analysis techniques demonstrated by **Luke Bourosse (Data Engineer)**.
+
+---
 
 ## 🧩 Problem & Context
-The data‑engineering job market is evolving quickly. Employers expect candidates to demonstrate strong programming fundamentals, cloud proficiency, big‑data tooling, SQL mastery, and infrastructure knowledge.
+The data‑engineering job market is evolving rapidly. Employers expect candidates to demonstrate strong programming fundamentals, cloud proficiency, SQL mastery, big‑data tooling familiarity, and infrastructure awareness.
+
+---
 
 ## ❓ Key Problem Questions
-What skills are in highest demand?
+- What skills are in highest demand?  
+- Which skills correlate with higher salaries?  
+- What skill combinations produce the strongest outcomes?  
+- How do languages, cloud platforms, and big‑data tools interact in real job postings?  
+- What SQL techniques matter most for analyzing skill trends?
 
-Which skills correlate with higher salaries?
-
-What skill combinations produce the strongest outcomes?
-
-How do languages, cloud platforms, and big‑data tools interact in real job postings?
-
-What SQL techniques matter most for analyzing skill trends?
-
-## 🖼️ Picture Explanation
-<PICTURE>
-
-This image represents a skill‑relationship graph, showing:
-
-Clusters of related technologies
-
-Co‑occurrence patterns in job postings
-
-Central “hub” skills like SQL, Python, and cloud platforms
-
-Specialized tools that appear in niche roles
-
-It helps identify high‑value learning paths and optimal skill bundles.
+---
 
 ## 🛠️ Tech Stack
-## ⚙️ Query Engine
-BigQuery SQL
 
-dbt (transformations + modeling)
+### ⚙️ Query Engine
+- BigQuery SQL  
+- Shell  
+- VSCode
 
-## 💻 Languages
-Python
-
-SQL
+---
 
 ## 🗂️ Data Model
-![alt text](assets/data_flow_diagram.svg)
-![alt text](assets/sql_diagram.svg)
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/0bfc5966-d982-4489-b43d-34689f393491" />
+<img width="800" height="650" alt="image" src="https://github.com/user-attachments/assets/ced200a2-167e-4dce-975e-cc1bfbab7fc6" />
 
+---
 
 ## 🧪 Development Workflow
-Modular SQL scripts
+- Modular SQL scripts  
 
-dbt models (staging → intermediate → marts)
-
-Python notebooks for exploration
+---
 
 ## 🔐 Version Control
-Git + GitHub
+- Git + GitHub  
 
-Branch‑based workflow
-
-Commit‑based change tracking
+---
 
 ## 📁 Project Structure
-/project-root
+<img width="263" height="312" alt="Screenshot 2026-08-13 180337" src="https://github.com/user-attachments/assets/efadc32b-5953-4eff-8391-fb141d58c9fb" />
 
-CREATE YOUR OWN... FOLDER / FILE STRUCTURE.....
+---
 
-##📊 Analysis Overview
-Top Demand Skills
+## 📚 Resources
 
-Top Paying Skills
+### Luke Bourosse — Data Engineering
+- Lecture:  
+  https://www.youtube.com/watch?v=ol9_NnC9-cc&list=PLDn_ohTCDO_E&index=2
 
-Optimal Skill Bundles
+### Live Data Feed
+- DataNerd:  
+  https://datanerd.tech/
 
-## 🔍 Key Insights
-## 🧑‍💻 Core Languages
-Python dominates
+### Data Source
+- MotherDuck:  
+  https://motherduck.com/
 
-SQL is universal
+### Database Connectivity
+- DuckDB Documentation:  
+  https://duckdb.org/
 
-##☁️ Cloud Platforms
-AWS leads
-
-GCP strong in data‑engineering roles
-
-Azure common in enterprise environments
-
-## 🏗️ Infrastructure & Tooling
-Docker + Kubernetes are baseline
-
-Terraform rising fast
-
-Airflow remains top orchestration tool
-
-## 🧬 Big‑Data Tools
-Spark is the most requested compute engine
-
-Kafka dominates streaming
-
-Dataproc/Dataflow strong in GCP ecosystems
-
-## 🧮 SQL Skills Demonstrated
-Window functions
-
-Aggregations
-
-CTE‑based transformations
-
-Multi‑table joins
-
-Salary segmentation
-
-Skill frequency + co‑occurrence analysis
-
-Ranking functions (ROW_NUMBER, RANK, DENSE_RANK)
-
-## 🔬 Data Analysis Techniques
-Dimensional modeling
-
-dbt transformations
-
-SQL analytical queries
-
-Python exploration
-
-Skill clustering
-
-Salary correlation modeling
-
-Demand vs. pay comparison
 
