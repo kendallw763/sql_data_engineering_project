@@ -53,7 +53,7 @@ The data‑engineering job market is evolving rapidly. Employers expect candidat
 
 ## 📚 Resources
 
-### Luke Bourosse — Data Engineering
+### Luke Barousse — Data Engineering
 - Lecture:  
   https://www.youtube.com/watch?v=ol9_NnC9-cc&list=PLDn_ohTCDO_E&index=2
 
